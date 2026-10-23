@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int user_s, s ,h , min ;
+    cout << "Enter the number of seconds : "<<endl;
+    cin>> user_s ;
+    h = user_s/3600;
+    min = (user_s%3600)/60;
+    s =user_s%60;
+    cout << user_s << " S = " << h<< " h "<< min << " min " << s <<" S "<<endl ; 
+}
